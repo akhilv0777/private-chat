@@ -3,6 +3,8 @@ packages:
   - "apps/*"
   - "packages/*"
   - "private-chat"
+allowBuilds:
+  esbuild: false
 
 catalog:
   '@replit/vite-plugin-cartographer': '^0.0.4'

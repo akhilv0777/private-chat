@@ -1,0 +1,5851 @@
+
+> @workspace/private-chat@0.0.0 dev /home/runner/workspace
+> vite --config vite.config.ts --host 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v6.4.3[39m  [2mready in [0m[1m598[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/mockup-sandbox/files/index.html[22m
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/mockup-sandbox/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/design-system/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/expo/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/automation/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/automation/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/artifacts/artifacts/mockup-sandbox/files/index.html[22m
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/design-system/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/mockup-sandbox/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/expo/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/react-vite/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/video-js/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/artifacts/artifacts/slides/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/artifacts/artifacts/expo/files/server/templates/landing-page.html[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/design-system/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/expo/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/automation/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:30:21 AM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: /home/runner/workspace/.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/mockup-sandbox/files/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/.tmp-artifacts-iyFFVnWhyc7HAJbsHVtdE/artifacts/mockup-sandbox/files/index.html[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/App.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async Object.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:38616:9[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/secondary_skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/testing/.fingerprint[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/testing/SKILL.md[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/testing/database-testing.md[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/testing/replit-auth.md[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:37:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:44:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:45:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:49:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/scribe/scribe.db-wal[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:49:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:49:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/scribe/scribe.db-wal[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:49:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:06:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/secondary_skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:08:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async DevEnvironment.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:48086:7[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/transcript/83185f61-0b0c-4467-9dc2-d237946fc5ba/transcript.jsonl[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async DevEnvironment.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:48086:7[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:33:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/transcript/83185f61-0b0c-4467-9dc2-d237946fc5ba/transcript.jsonl[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:33:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:33:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:33:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/secondary_skills/LICENSE.txt[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:33:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:34:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:34:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:34:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:34:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async Object.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:38616:9[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+[replit-cartographer] Error processing /home/runner/workspace/src/main.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async Object.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:38616:9[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:35:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:17 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (708:32)
+
+[0m [90m 706 |[31m [36mfunction[31m [33mKnockBanner[31m({ knock[33m,[31m queueLen[33m,[31m onAccept[33m,[31m onDecline }[33m:[31m { knock[33m:[31m [33mPendingApproval[31m[33m;[31m queueLen[33m:[31m number[33m;[31m onAccept[33m:[31m () [33m=>[31m [36mvoid[31m[33m;[31m onDecline[33m:[31m () [33m=>[31m [36mvoid[31m }) {
+ [90m 707 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m 708 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-knock-bar"[31m[33m>[31m
+ [90m     |[31m                                 [31m[1m^[22m[31m
+ [90m 709 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-kav-sm"[31m[33m>[31m[33m<[31m[33mspan[31m[33m>[31m{nameToEmoji(knock[33m.[31mname)}[33m<[31m[33m/[31m[33mspan[31m[33m>[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 710 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-ktxt"[31m[33m>[31m
+ [90m 711 |[31m         [33m<[31m[33mstrong[31m[33m>[31m{knock[33m.[31mname}[33m<[31m[33m/[31m[33mstrong[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:708:32
+[33m  706|  function KnockBanner({ knock, queueLen, onAccept, onDecline }: { knock: PendingApproval; queueLen: number; onAccept: () => void; onDecline: () => void }) {
+  707|    return (
+  708|      <div className="pc-knock-bar">
+     |                                  ^
+  709|        <div className="pc-kav-sm"><span>{nameToEmoji(knock.name)}</span></div>
+  710|        <div className="pc-ktxt">[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4581:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4588:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4664:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:39
+      at TypeScriptParserMixin.tryParse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:18)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10801:23)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13159:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+[2m10:36:18 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (708:32)
+
+[0m [90m 706 |[39m [36mfunction[39m [33mKnockBanner[39m({ knock[33m,[39m queueLen[33m,[39m onAccept[33m,[39m onDecline }[33m:[39m { knock[33m:[39m [33mPendingApproval[39m[33m;[39m queueLen[33m:[39m number[33m;[39m onAccept[33m:[39m () [33m=>[39m [36mvoid[39m[33m;[39m onDecline[33m:[39m () [33m=>[39m [36mvoid[39m }) {
+ [90m 707 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m 708 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m"pc-knock-bar"[39m[33m>[39m
+ [90m     |[39m                                 [31m[1m^[22m[39m
+ [90m 709 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"pc-kav-sm"[39m[33m>[39m[33m<[39m[33mspan[39m[33m>[39m{nameToEmoji(knock[33m.[39mname)}[33m<[39m[33m/[39m[33mspan[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 710 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"pc-ktxt"[39m[33m>[39m
+ [90m 711 |[39m         [33m<[39m[33mstrong[39m[33m>[39m{knock[33m.[39mname}[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:708:32
+[33m  706|  function KnockBanner({ knock, queueLen, onAccept, onDecline }: { knock: PendingApproval; queueLen: number; onAccept: () => void; onDecline: () => void }) {
+  707|    return (
+  708|      <div className="pc-knock-bar">
+     |                                  ^
+  709|        <div className="pc-kav-sm"><span>{nameToEmoji(knock.name)}</span></div>
+  710|        <div className="pc-ktxt">[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (708:32)
+
+[0m [90m 706 |[31m [36mfunction[31m [33mKnockBanner[31m({ knock[33m,[31m queueLen[33m,[31m onAccept[33m,[31m onDecline }[33m:[31m { knock[33m:[31m [33mPendingApproval[31m[33m;[31m queueLen[33m:[31m number[33m;[31m onAccept[33m:[31m () [33m=>[31m [36mvoid[31m[33m;[31m onDecline[33m:[31m () [33m=>[31m [36mvoid[31m }) {
+ [90m 707 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m 708 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-knock-bar"[31m[33m>[31m
+ [90m     |[31m                                 [31m[1m^[22m[31m
+ [90m 709 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-kav-sm"[31m[33m>[31m[33m<[31m[33mspan[31m[33m>[31m{nameToEmoji(knock[33m.[31mname)}[33m<[31m[33m/[31m[33mspan[31m[33m>[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 710 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-ktxt"[31m[33m>[31m
+ [90m 711 |[31m         [33m<[31m[33mstrong[31m[33m>[31m{knock[33m.[31mname}[33m<[31m[33m/[31m[33mstrong[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:708:32
+[33m  706|  function KnockBanner({ knock, queueLen, onAccept, onDecline }: { knock: PendingApproval; queueLen: number; onAccept: () => void; onDecline: () => void }) {
+  707|    return (
+  708|      <div className="pc-knock-bar">
+     |                                  ^
+  709|        <div className="pc-kav-sm"><span>{nameToEmoji(knock.name)}</span></div>
+  710|        <div className="pc-ktxt">[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4581:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4588:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4664:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:39
+      at TypeScriptParserMixin.tryParse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:18)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10801:23)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13159:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:25 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (708:32)
+
+[0m [90m 706 |[31m [36mfunction[31m [33mKnockBanner[31m({ knock[33m,[31m queueLen[33m,[31m onAccept[33m,[31m onDecline }[33m:[31m { knock[33m:[31m [33mPendingApproval[31m[33m;[31m queueLen[33m:[31m number[33m;[31m onAccept[33m:[31m () [33m=>[31m [36mvoid[31m[33m;[31m onDecline[33m:[31m () [33m=>[31m [36mvoid[31m }) {
+ [90m 707 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m 708 |[31m     [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-knock-bar"[31m[33m>[31m
+ [90m     |[31m                                 [31m[1m^[22m[31m
+ [90m 709 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-kav-sm"[31m[33m>[31m[33m<[31m[33mspan[31m[33m>[31m{nameToEmoji(knock[33m.[31mname)}[33m<[31m[33m/[31m[33mspan[31m[33m>[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 710 |[31m       [33m<[31m[33mdiv[31m className[33m=[31m[32m"pc-ktxt"[31m[33m>[31m
+ [90m 711 |[31m         [33m<[31m[33mstrong[31m[33m>[31m{knock[33m.[31mname}[33m<[31m[33m/[31m[33mstrong[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:708:32
+[33m  706|  function KnockBanner({ knock, queueLen, onAccept, onDecline }: { knock: PendingApproval; queueLen: number; onAccept: () => void; onDecline: () => void }) {
+  707|    return (
+  708|      <div className="pc-knock-bar">
+     |                                  ^
+  709|        <div className="pc-kav-sm"><span>{nameToEmoji(knock.name)}</span></div>
+  710|        <div className="pc-ktxt">[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4581:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4588:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4664:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:39
+      at TypeScriptParserMixin.tryParse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9792:18)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10801:23)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13159:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:33 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:33 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async DevEnvironment.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:48086:7[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:36:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:37:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:21 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (1208:0)
+
+[0m [90m 1206 |[31m ip[33m,[31m onSpeaker[33m,[31m onScreenShare[33m,[31m onLeave[33m,[31m
+ [90m 1207 |[31m   onKick[33m,[31m onForceMute[33m,[31m onForceCam[33m,[31m onSend[33m,[31m onDm[33m,[31m onDmSend[33m,[31m onCloseDm[33m,[31m onAccept[33m,[31m onDecline[33m,[31m
+[31m[1m>[22m[31m[90m 1208 |[31m }[33m:[31m {
+ [90m      |[31m [31m[1m^[22m[31m
+ [90m 1209 |[31m   parts[33m:[31m [33mParticipant[31m[][33m;[31m myId[33m:[31m string[33m;[31m isAdmin[33m:[31m boolean[33m;[31m msgs[33m:[31m [33mChatMsg[31m[][33m;[31m
+ [90m 1210 |[31m   micOn[33m:[31m boolean[33m;[31m camOn[33m:[31m boolean[33m;[31m speakerOn[33m:[31m boolean[33m;[31m
+ [90m 1211 |[31m   facingMode[33m:[31m [32m"user"[31m [33m|[31m [32m"environment"[31m[33m;[31m isScreenSharing[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:1208:0
+[33m  1206|  ip, onSpeaker, onScreenShare, onLeave,
+  1207|    onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
+  1208|  }: {
+     |  ^
+  1209|    parts: Participant[]; myId: string; isAdmin: boolean; msgs: ChatMsg[];
+  1210|    micOn: boolean; camOn: boolean; speakerOn: boolean;[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11459:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10806:36)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12912:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12629:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14505:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10143:18)
+      at parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14539:38)
+      at parser (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[2m10:38:22 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (1208:0)
+
+[0m [90m 1206 |[39m ip[33m,[39m onSpeaker[33m,[39m onScreenShare[33m,[39m onLeave[33m,[39m
+ [90m 1207 |[39m   onKick[33m,[39m onForceMute[33m,[39m onForceCam[33m,[39m onSend[33m,[39m onDm[33m,[39m onDmSend[33m,[39m onCloseDm[33m,[39m onAccept[33m,[39m onDecline[33m,[39m
+[31m[1m>[22m[39m[90m 1208 |[39m }[33m:[39m {
+ [90m      |[39m [31m[1m^[22m[39m
+ [90m 1209 |[39m   parts[33m:[39m [33mParticipant[39m[][33m;[39m myId[33m:[39m string[33m;[39m isAdmin[33m:[39m boolean[33m;[39m msgs[33m:[39m [33mChatMsg[39m[][33m;[39m
+ [90m 1210 |[39m   micOn[33m:[39m boolean[33m;[39m camOn[33m:[39m boolean[33m;[39m speakerOn[33m:[39m boolean[33m;[39m
+ [90m 1211 |[39m   facingMode[33m:[39m [32m"user"[39m [33m|[39m [32m"environment"[39m[33m;[39m isScreenSharing[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:1208:0
+[33m  1206|  ip, onSpeaker, onScreenShare, onLeave,
+  1207|    onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
+  1208|  }: {
+     |  ^
+  1209|    parts: Participant[]; myId: string; isAdmin: boolean; msgs: ChatMsg[];
+  1210|    micOn: boolean; camOn: boolean; speakerOn: boolean;[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:22 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (1208:0)
+
+[0m [90m 1206 |[31m ip[33m,[31m onSpeaker[33m,[31m onScreenShare[33m,[31m onLeave[33m,[31m
+ [90m 1207 |[31m   onKick[33m,[31m onForceMute[33m,[31m onForceCam[33m,[31m onSend[33m,[31m onDm[33m,[31m onDmSend[33m,[31m onCloseDm[33m,[31m onAccept[33m,[31m onDecline[33m,[31m
+[31m[1m>[22m[31m[90m 1208 |[31m }[33m:[31m {
+ [90m      |[31m [31m[1m^[22m[31m
+ [90m 1209 |[31m   parts[33m:[31m [33mParticipant[31m[][33m;[31m myId[33m:[31m string[33m;[31m isAdmin[33m:[31m boolean[33m;[31m msgs[33m:[31m [33mChatMsg[31m[][33m;[31m
+ [90m 1210 |[31m   micOn[33m:[31m boolean[33m;[31m camOn[33m:[31m boolean[33m;[31m speakerOn[33m:[31m boolean[33m;[31m
+ [90m 1211 |[31m   facingMode[33m:[31m [32m"user"[31m [33m|[31m [32m"environment"[31m[33m;[31m isScreenSharing[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:1208:0
+[33m  1206|  ip, onSpeaker, onScreenShare, onLeave,
+  1207|    onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
+  1208|  }: {
+     |  ^
+  1209|    parts: Participant[]; myId: string; isAdmin: boolean; msgs: ChatMsg[];
+  1210|    micOn: boolean; camOn: boolean; speakerOn: boolean;[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11459:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10806:36)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12912:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12629:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14505:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10143:18)
+      at parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14539:38)
+      at parser (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:23 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (1208:0)
+
+[0m [90m 1206 |[31m ip[33m,[31m onSpeaker[33m,[31m onScreenShare[33m,[31m onLeave[33m,[31m
+ [90m 1207 |[31m   onKick[33m,[31m onForceMute[33m,[31m onForceCam[33m,[31m onSend[33m,[31m onDm[33m,[31m onDmSend[33m,[31m onCloseDm[33m,[31m onAccept[33m,[31m onDecline[33m,[31m
+[31m[1m>[22m[31m[90m 1208 |[31m }[33m:[31m {
+ [90m      |[31m [31m[1m^[22m[31m
+ [90m 1209 |[31m   parts[33m:[31m [33mParticipant[31m[][33m;[31m myId[33m:[31m string[33m;[31m isAdmin[33m:[31m boolean[33m;[31m msgs[33m:[31m [33mChatMsg[31m[][33m;[31m
+ [90m 1210 |[31m   micOn[33m:[31m boolean[33m;[31m camOn[33m:[31m boolean[33m;[31m speakerOn[33m:[31m boolean[33m;[31m
+ [90m 1211 |[31m   facingMode[33m:[31m [32m"user"[31m [33m|[31m [32m"environment"[31m[33m;[31m isScreenSharing[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:1208:0
+[33m  1206|  ip, onSpeaker, onScreenShare, onLeave,
+  1207|    onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
+  1208|  }: {
+     |  ^
+  1209|    parts: Participant[]; myId: string; isAdmin: boolean; msgs: ChatMsg[];
+  1210|    micOn: boolean; camOn: boolean; speakerOn: boolean;[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11459:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10806:36)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12912:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12629:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14505:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10143:18)
+      at parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14539:38)
+      at parser (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:29 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/runner/workspace/src/PrivateChat.tsx: Unexpected token (1208:0)
+
+[0m [90m 1206 |[31m ip[33m,[31m onSpeaker[33m,[31m onScreenShare[33m,[31m onLeave[33m,[31m
+ [90m 1207 |[31m   onKick[33m,[31m onForceMute[33m,[31m onForceCam[33m,[31m onSend[33m,[31m onDm[33m,[31m onDmSend[33m,[31m onCloseDm[33m,[31m onAccept[33m,[31m onDecline[33m,[31m
+[31m[1m>[22m[31m[90m 1208 |[31m }[33m:[31m {
+ [90m      |[31m [31m[1m^[22m[31m
+ [90m 1209 |[31m   parts[33m:[31m [33mParticipant[31m[][33m;[31m myId[33m:[31m string[33m;[31m isAdmin[33m:[31m boolean[33m;[31m msgs[33m:[31m [33mChatMsg[31m[][33m;[31m
+ [90m 1210 |[31m   micOn[33m:[31m boolean[33m;[31m camOn[33m:[31m boolean[33m;[31m speakerOn[33m:[31m boolean[33m;[31m
+ [90m 1211 |[31m   facingMode[33m:[31m [32m"user"[31m [33m|[31m [32m"environment"[31m[33m;[31m isScreenSharing[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/src/PrivateChat.tsx[39m:1208:0
+[33m  1206|  ip, onSpeaker, onScreenShare, onLeave,
+  1207|    onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
+  1208|  }: {
+     |  ^
+  1209|    parts: Participant[]; myId: string; isAdmin: boolean; msgs: ChatMsg[];
+  1210|    micOn: boolean; camOn: boolean; speakerOn: boolean;[39m
+      at constructor (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:6636:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11459:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10806:36)
+      at /home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12438:16)
+      at TypeScriptParserMixin.parseExpression (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10797:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12912:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:12629:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14505:25)
+      at TypeScriptParserMixin.parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:10143:18)
+      at parse (/home/runner/workspace/node_modules/.pnpm/@babel+parser@7.29.7/node_modules/@babel/parser/lib/index.js:14539:38)
+      at parser (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.7/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async DevEnvironment.warmupRequest [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:48086:7[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/PrivateChat.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+[replit-cartographer] Error processing /home/runner/workspace/src/PrivateChat.tsx: TypeError: traverse is not a function
+    at TransformPluginContext.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.0.4/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:53:9[90m)[39m
+    at async EnvironmentPluginContainer.transform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:42453:18[90m)[39m
+    at async loadAndTransform [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:35845:27[90m)[39m
+    at async viteTransformMiddleware [90m(file:///home/runner/workspace/[39mnode_modules/[4m.pnpm[24m/vite@6.4.3_@types+node@22.19.20_jiti@2.7.0_lightningcss@1.32.0/node_modules/[4mvite[24m/dist/node/chunks/dep-Dm0c1Wj2.js:37369:24[90m)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:38:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/replit/agent/.latest.json[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:39:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m.local/state/workflow-logs/hu1ka9RXVM_YBTQAIWR60/start_application.shell.exec.0[22m
