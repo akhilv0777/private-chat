@@ -276,13 +276,9 @@ const CSS = `
   .pc-send:hover{transform:scale(1.08)}
   .pc-attach{width:34px;height:34px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:rgba(240,238,255,.5);display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0}
   .pc-attach:hover{background:rgba(167,139,250,.15);border-color:rgba(167,139,250,.3);color:#c4b5fd}
-  .pc-view-once-row{display:flex;align-items:center;gap:7px;padding:4px 2px}
-  .pc-vo-toggle{width:28px;height:16px;border-radius:8px;border:none;position:relative;transition:background .2s;flex-shrink:0}
-  .pc-vo-toggle.on{background:rgba(167,139,250,.5)}
-  .pc-vo-toggle.off{background:rgba(255,255,255,.15)}
-  .pc-vo-thumb{position:absolute;top:2px;width:12px;height:12px;border-radius:50%;background:#fff;transition:left .2s}
-  .pc-vo-toggle.on .pc-vo-thumb{left:14px}
-  .pc-vo-toggle.off .pc-vo-thumb{left:2px}
+  .pc-vo-icon-btn{width:34px;height:34px;border-radius:50%;border:2px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:rgba(240,238,255,.4);display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;position:relative}
+  .pc-vo-icon-btn:hover{border-color:rgba(167,139,250,.4);color:#c4b5fd;background:rgba(167,139,250,.08)}
+  .pc-vo-icon-btn.on{border-color:rgba(167,139,250,.6);color:#a78bfa;background:rgba(167,139,250,.15);box-shadow:0 0 10px rgba(167,139,250,.2)}
   .pc-media-img{max-width:100%;border-radius:9px;display:block;margin-top:5px;max-height:180px;object-fit:cover;cursor:pointer}
   .pc-media-video{max-width:100%;border-radius:9px;display:block;margin-top:5px;max-height:180px}
   .pc-pdf-card{display:flex;align-items:center;gap:9px;padding:9px 12px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:10px;margin-top:5px;cursor:pointer;transition:background .2s}
@@ -317,10 +313,13 @@ const CSS = `
   .pc-avatar-row{display:flex;flex-wrap:wrap;gap:7px;padding:10px;background:rgba(0,0,0,.3);border-radius:12px;border:1px solid rgba(255,255,255,.08);margin-bottom:12px}
   .pc-av-opt{width:36px;height:36px;border-radius:50%;border:2px solid transparent;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:all .15s;cursor:pointer}
   .pc-av-opt:hover,.pc-av-opt.sel{border-color:#a78bfa;background:rgba(167,139,250,.15)}
-  .pc-upload-photo{display:flex;align-items:center;justify-content:center;gap:7px;padding:10px;border-radius:10px;border:1px dashed rgba(167,139,250,.3);background:rgba(167,139,250,.05);color:rgba(167,139,250,.7);font-size:.78rem;cursor:pointer;transition:all .2s;margin-bottom:12px}
-  .pc-upload-photo:hover{background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.5)}
-  .pc-photo-preview{width:80px;height:80px;border-radius:50%;margin:0 auto 12px;border:2px solid rgba(167,139,250,.3);overflow:hidden;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#6d28d9,#a78bfa);font-size:2rem}
+  .pc-photo-wrap{width:88px;height:88px;position:relative;margin:0 auto 16px;cursor:pointer}
+  .pc-photo-preview{width:88px;height:88px;border-radius:50%;border:2px solid rgba(167,139,250,.3);overflow:hidden;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#6d28d9,#a78bfa);font-size:2rem;transition:filter .2s}
+  .pc-photo-wrap:hover .pc-photo-preview{filter:brightness(.7)}
   .pc-photo-preview img{width:100%;height:100%;object-fit:cover}
+  .pc-cam-overlay{position:absolute;bottom:2px;right:2px;width:26px;height:26px;border-radius:50%;background:rgba(109,40,217,.9);border:2px solid rgba(6,5,14,1);display:flex;align-items:center;justify-content:center;color:#fff;pointer-events:none}
+  .pc-share-icon-btn{width:30px;height:30px;border-radius:8px;border:1px solid rgba(167,139,250,.2);background:rgba(167,139,250,.07);color:rgba(167,139,250,.55);display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0}
+  .pc-share-icon-btn:hover{background:rgba(167,139,250,.18);border-color:rgba(167,139,250,.45);color:#c4b5fd}
 
   /* DM panel */
   .pc-dm-panel{display:flex;flex-direction:column;height:100%;overflow:hidden}
@@ -407,6 +406,9 @@ const SVG: Record<string, string> = {
   Eye: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
   Zap: `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
   ArrowLeft: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>`,
+  ViewOnce: `<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" stroke-dasharray="3 2"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg>`,
+  CamSmall: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>`,
+  ShareLink: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>`,
 };
 
 const Ic = ({ n, style }: { n: string; style?: React.CSSProperties }) => (
@@ -468,14 +470,20 @@ function VideoTile({ p, isSelf, isAdminUser, isScreenSharing }: { p: Participant
 /* ─────────────────────────────────────────
    PEOPLE PANEL
 ───────────────────────────────────────── */
-function PeoplePanel({ parts, myId, isAdmin, onKick, onForceMute, onForceCam, onDm, dmUnread }: {
+function PeoplePanel({ parts, myId, isAdmin, onKick, onForceMute, onForceCam, onDm, dmUnread, roomLink }: {
   parts: Participant[]; myId: string; isAdmin: boolean;
   onKick: (id: string, n: string) => void;
   onForceMute: (id: string) => void;
   onForceCam: (id: string) => void;
   onDm: (p: Participant) => void;
   dmUnread: Record<string, number>;
+  roomLink?: string;
 }) {
+  const [copiedLink, setCopiedLink] = useState(false);
+  const copyLink = () => {
+    if (!roomLink) return;
+    navigator.clipboard.writeText(roomLink).then(() => { setCopiedLink(true); setTimeout(() => setCopiedLink(false), 2000); });
+  };
   return (
     <div className="pc-people">
       {parts.map((p) => {
@@ -496,6 +504,11 @@ function PeoplePanel({ parts, myId, isAdmin, onKick, onForceMute, onForceCam, on
               <div className={`pc-picon${p.micOn === false ? " off" : ""}`}><Ic n={p.micOn === false ? "MicOff" : "Mic"} /></div>
               <div className={`pc-picon${p.camOn === false ? " off" : ""}`}><Ic n={p.camOn === false ? "CamOff" : "Cam"} /></div>
             </div>
+            {isSelf && roomLink && (
+              <button className="pc-share-icon-btn" onClick={copyLink} title="Copy invite link">
+                <Ic n={copiedLink ? "Check" : "ShareLink"} style={{ color: copiedLink ? "#4ade80" : undefined }} />
+              </button>
+            )}
             {!isSelf && (
               <div className="pc-adm-acts">
                 <button className="pc-dm-btn" onClick={() => onDm(p)} title={`DM ${p.name}`}>
@@ -609,16 +622,13 @@ function DmPanel({ peer: dmPeer, msgs, onSend, onClose }: {
         ))}
       </div>
       <div className="pc-chat-foot">
-        <div className="pc-view-once-row">
-          <button className={`pc-vo-toggle${viewOnce ? " on" : " off"}`} onClick={() => setViewOnce(v => !v)}>
-            <div className="pc-vo-thumb" />
-          </button>
-          <span style={{ fontSize: ".65rem", color: viewOnce ? "#c4b5fd" : "rgba(240,238,255,.35)" }}>View once</span>
-        </div>
         <div className="pc-chat-row">
           <input ref={fileRef} type="file" accept="image/*,video/*,application/pdf" style={{ display: "none" }} onChange={handleFile} />
           <button className="pc-attach" onClick={() => fileRef.current?.click()} title="Attach file"><Ic n="Image" /></button>
           <input className="pc-ci" placeholder="Private message…" value={text} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} />
+          <button className={`pc-vo-icon-btn${viewOnce ? " on" : ""}`} onClick={() => setViewOnce(v => !v)} title={viewOnce ? "View once ON" : "View once OFF"}>
+            <Ic n="ViewOnce" />
+          </button>
           <button className="pc-send" onClick={send}><Ic n="Send" /></button>
         </div>
       </div>
@@ -701,16 +711,13 @@ function ChatPanel({ msgs, onSend }: {
         ))}
       </div>
       <div className="pc-chat-foot">
-        <div className="pc-view-once-row">
-          <button className={`pc-vo-toggle${viewOnce ? " on" : " off"}`} onClick={() => setViewOnce(v => !v)}>
-            <div className="pc-vo-thumb" />
-          </button>
-          <span style={{ fontSize: ".65rem", color: viewOnce ? "#c4b5fd" : "rgba(240,238,255,.35)" }}>View once</span>
-        </div>
         <div className="pc-chat-row">
           <input ref={fileRef} type="file" accept="image/*,video/*,application/pdf" style={{ display: "none" }} onChange={handleFile} />
           <button className="pc-attach" onClick={() => fileRef.current?.click()} title="Attach"><Ic n="Image" /></button>
           <input className="pc-ci" placeholder="Message…" value={text} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} />
+          <button className={`pc-vo-icon-btn${viewOnce ? " on" : ""}`} onClick={() => setViewOnce(v => !v)} title={viewOnce ? "View once ON" : "View once OFF"}>
+            <Ic n="ViewOnce" />
+          </button>
           <button className="pc-send" onClick={send}><Ic n="Send" /></button>
         </div>
       </div>
@@ -763,13 +770,13 @@ function ProfileModal({ profile, onSave, onClose }: { profile: MyProfile; onSave
           <h3>Edit Profile</h3>
           <button onClick={onClose} style={{ background: "transparent", border: "none", color: "rgba(240,238,255,.4)", display: "flex" }}><Ic n="X" /></button>
         </div>
-        <div className="pc-photo-preview">
-          {isPhoto && avatar ? <img src={avatar} alt="" /> : <span style={{ fontSize: "1.9rem" }}>{currentEmoji || nameToEmoji(name)}</span>}
-        </div>
         <input ref={photoRef} type="file" accept="image/*" style={{ display: "none" }} onChange={handlePhoto} />
-        <button className="pc-upload-photo" onClick={() => photoRef.current?.click()}>
-          <Ic n="Upload" /> Upload photo
-        </button>
+        <div className="pc-photo-wrap" onClick={() => photoRef.current?.click()} title="Tap to change photo">
+          <div className="pc-photo-preview">
+            {isPhoto && avatar ? <img src={avatar} alt="" /> : <span style={{ fontSize: "1.9rem" }}>{currentEmoji || nameToEmoji(name)}</span>}
+          </div>
+          <div className="pc-cam-overlay"><Ic n="CamSmall" /></div>
+        </div>
         <p style={{ fontSize: ".65rem", color: "rgba(240,238,255,.3)", marginBottom: 8, letterSpacing: ".1em", textTransform: "uppercase" }}>Or pick emoji</p>
         <div className="pc-avatar-row">
           {EMOJIS.map((e, i) => (
@@ -1102,14 +1109,21 @@ function HomeScreen({ profile, onCreate, onJoin, onEditProfile, onRandom }: {
         </div>
         <div className="pc-card">
           {/* Profile row — full width */}
-          <button className="pc-profile-row" onClick={onEditProfile} style={{ border: "none", textAlign: "left" }}>
-            <AvatarDisplay avatar={profile.avatar} name={profile.name} size={44} fontSize="1.35rem" />
-            <div style={{ flex: 1 }}>
+          <div className="pc-profile-row" style={{ cursor: "default" }}>
+            <div style={{ position: "relative", flexShrink: 0, cursor: "pointer" }} onClick={onEditProfile} title="Edit profile">
+              <AvatarDisplay avatar={profile.avatar} name={profile.name} size={44} fontSize="1.35rem" />
+              <div style={{ position: "absolute", bottom: 0, right: 0, width: 17, height: 17, borderRadius: "50%", background: "rgba(109,40,217,.9)", border: "2px solid rgba(9,7,20,1)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <Ic n="CamSmall" style={{ color: "#fff" }} />
+              </div>
+            </div>
+            <div style={{ flex: 1, cursor: "pointer" }} onClick={onEditProfile}>
               <div style={{ fontSize: ".88rem", fontWeight: 700, color: "#f0eeff" }}>{profile.name}</div>
               <div style={{ fontSize: ".65rem", color: "rgba(240,238,255,.35)", marginTop: 2 }}>Tap to edit profile</div>
             </div>
-            <Ic n="Edit" style={{ color: "rgba(167,139,250,.45)", flexShrink: 0 }} />
-          </button>
+            <button className="pc-share-icon-btn" onClick={() => { navigator.clipboard.writeText(window.location.href); }} title="Share app link">
+              <Ic n="ShareLink" />
+            </button>
+          </div>
 
           <p style={{ fontSize: ".62rem", letterSpacing: ".18em", textTransform: "uppercase", color: "rgba(240,238,255,.28)", marginBottom: 12, fontWeight: 600, display: "flex", alignItems: "center", gap: 8 }}>
             <span style={{ width: 18, height: 1, background: "#a78bfa", opacity: 0.5, display: "inline-block" }} />
@@ -1191,7 +1205,7 @@ function ConnectingScreen({ msg }: { msg: string }) {
 ───────────────────────────────────────── */
 function RoomScreen({
   parts, myId, isAdmin, msgs, micOn, camOn, speakerOn, facingMode, isScreenSharing,
-  pendingQ, dmChats, dmUnread, activeDm,
+  pendingQ, dmChats, dmUnread, activeDm, roomLink,
   onMic, onCam, onFlip, onSpeaker, onScreenShare, onLeave,
   onKick, onForceMute, onForceCam, onSend, onDm, onDmSend, onCloseDm, onAccept, onDecline,
 }: {
@@ -1202,6 +1216,7 @@ function RoomScreen({
   dmChats: Record<string, ChatMsg[]>;
   dmUnread: Record<string, number>;
   activeDm: Participant | null;
+  roomLink: string;
   onMic: () => void; onCam: () => void; onFlip: () => void;
   onSpeaker: () => void; onScreenShare: () => void; onLeave: () => void;
   onKick: (id: string, n: string) => void;
@@ -1276,7 +1291,7 @@ function RoomScreen({
           </button>
         </div>
         <div style={{ flex: 1, overflow: "hidden", display: "flex", flexDirection: "column" }}>
-          {tab === "people" && <PeoplePanel parts={parts} myId={myId} isAdmin={isAdmin} onKick={onKick} onForceMute={onForceMute} onForceCam={onForceCam} onDm={handleDm} dmUnread={dmUnread} />}
+          {tab === "people" && <PeoplePanel parts={parts} myId={myId} isAdmin={isAdmin} onKick={onKick} onForceMute={onForceMute} onForceCam={onForceCam} onDm={handleDm} dmUnread={dmUnread} roomLink={roomLink} />}
           {tab === "chat" && <ChatPanel msgs={msgs} onSend={onSend} />}
           {tab === "dm" && (
             activeDm
@@ -1783,7 +1798,7 @@ export default function PrivateChat() {
           parts={parts} myId={myIdRef.current} isAdmin={isAdmin}
           msgs={msgs} micOn={micOn} camOn={camOn} speakerOn={speakerOn}
           facingMode={facingMode} isScreenSharing={isScreenSharing}
-          pendingQ={pendingQ} dmChats={dmChats} dmUnread={dmUnread} activeDm={activeDm}
+          pendingQ={pendingQ} dmChats={dmChats} dmUnread={dmUnread} activeDm={activeDm} roomLink={roomLink}
           onMic={toggleMic} onCam={toggleCam} onFlip={flipCamera}
           onSpeaker={toggleSpeaker} onScreenShare={toggleScreenShare}
           onLeave={() => cleanup(true)}
